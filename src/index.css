@@ -1,0 +1,88 @@
+body {
+  background-color: rgb(175, 215, 237);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto',sans-serif;
+  box-sizing: border-box;
+}
+
+.main-box{
+  width: 500px;
+  background-color: #fff;
+  height: 450px;
+  border-radius: 8px;
+}
+
+.content {
+  padding-left: 30px;
+}
+
+.main-box h2 {
+  color: rgb(0, 30, 255);
+  font-weight: 600;
+  padding-top: 30px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.length {
+  margin-bottom: 30px;
+}
+
+.length label {
+  display: block;
+}
+
+.length input {
+  width:80%;
+  margin-top: 10px;
+  outline: none;
+  border-radius: 4px;
+  height: 30px;
+  padding: 5px;
+  border: none;
+  border: 1px solid grey;
+}
+
+.checkbox-group {
+  padding-bottom: 10px;
+  
+}
+
+.g-btn{
+  background-color: rgb(78, 131, 236);
+  height: 35px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.btn-copy {
+  background-color: rgb(47, 234, 47);
+  height: 35px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  
+}
+
+.generate-password input {
+  height: 35px;
+  border-radius:5px ;
+  margin-right: 10px;
+  width: 300px;
+  margin-bottom: 10px;
+}
